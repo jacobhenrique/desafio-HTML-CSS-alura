@@ -1,0 +1,88 @@
+.cabecalho{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+.logocabecalho{
+    width: 20%;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+
+}
+.logo{
+
+    margin-right: 10px;
+
+
+}
+a{
+
+    text-decoration: none;
+    color: #667085;
+    font-size: 16px;
+    margin-left: 45px;
+
+}
+.menu{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.botaologar{
+    
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10%;
+
+}
+.cabecalhoCadastrar{
+    
+    width: 112px;
+    height: 44px;
+
+}
+.campo-sobre-nos{
+
+    margin-top: 50px;
+
+}
+.sobre{
+    color: var(--main-color);
+    font-size: 16px;
+    text-align: center;
+
+}
+h1{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+:root{
+
+    --text-color: #667085;
+    --main-color: #8e2424;
+
+}
+.texto-sobrenos{
+
+    margin-top: 20px;
+    color: var(--text-color);
+
+}
