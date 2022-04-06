@@ -55,25 +55,27 @@ a{
 .campo-sobre-nos{
 
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .sobre{
     color: var(--main-color);
     font-size: 16px;
     text-align: center;
+    width: 791px;
+    font-family: 'Inter', sans-serif;
 
 }
 h1{
     margin-top: 20px;
-    font-size: 50px;
+    font-size: 48px;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 
 }
-p{
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-}
+
 :root{
 
     --text-color: #667085;
@@ -82,7 +84,149 @@ p{
 }
 .texto-sobrenos{
 
+    margin-top: 30px;
+    color: var(--text-color);
+    width: 791px;
+    margin-left: 80px;
+    margin-right: 60px;
+    text-align: center;
+    height: 60px;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+.metricas{
+
+    display: flex;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+h2{
+
+    font-size: 60px;
+    color: var(--main-color);
+    font-family: 'Inter', sans-serif;
+
+}
+.projetos-concluidos{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.colaboradores{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+.downloads{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.reviews{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.titulo-projetos{
+
+    margin-top: 20px;
+    color:#101828;
+    font-size: 18px;
+    
+
+}
+.titulo-colaboradores{
+
+    margin-top: 20px;
+    color:#101828;
+    font-size: 18px;
+
+}
+.titulo-downloads{
+
+    margin-top: 20px;
+    color:#101828;
+    font-size: 18px;
+
+}
+.titulo-reviews{
+
+    margin-top: 20px;
+    color:#101828;
+    font-size: 18px;
+
+}
+.texto-metricas{
+
     margin-top: 20px;
     color: var(--text-color);
+    font-size: 16px;
+    width: 280px;
+    margin-right: 20px;
+
+}
+.talentos{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+h3{
+    
+    margin-top: 30px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+
+
+}
+.foto-vagas{
+
+    width: 1100px;
+    height: auto;
+    margin-left: 112px;
+    margin-top: 50px;
+    margin-right: 112px;
+    
+
+}
+.texto-vagas{
+
+   margin-top: 30px;
+
+}
+.vagas-abertas{
+
+    margin-top: 30px;
+    color: var(--main-color);
+    font-size: 14px;
+    background-color: rgba(142, 36, 36, 0.05);
+    
+ 
+
+}
+.campo-foto{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
